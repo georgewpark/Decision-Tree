@@ -10,7 +10,7 @@ tabs.forEach(tab => {
       const parentTabPanel =
         tab.closest('.decision-tree__panel') || tab.closest('.decision-tree')
       const activeTabs = parentTabPanel.querySelectorAll(
-        '[aria-selected="true"]'
+        '[aria-selected="true"]',
       )
 
       activeTabs.forEach(activeTab => {
